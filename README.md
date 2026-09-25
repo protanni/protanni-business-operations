@@ -59,7 +59,7 @@ Any operational data used here will be synthetic, anonymized, aggregated, or int
 - [x] Create public portfolio repository skeleton
 - [x] Complete PMI KICKOFF
 - [x] Write PROTANNI business context & scope
-- [ ] Create KPI tree & metric framework
+- [x] Create KPI tree & metric framework
 - [ ] Create data dictionary & privacy rules
 - [ ] Ship Week 1 checkpoint
 
@@ -68,6 +68,7 @@ Any operational data used here will be synthetic, anonymized, aggregated, or int
 ### Week 1 evidence
 
 - [Business Context & Scope](./01-business-context/business-model.md)
+- [KPI Framework](./01-business-context/kpi-framework.md)
 - [PMI KICKOFF Project Charter](./01-business-context/project-charter.md)
 - [Credentials register](./credentials/README.md)
 
