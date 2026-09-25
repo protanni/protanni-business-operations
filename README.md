@@ -57,11 +57,18 @@ Any operational data used here will be synthetic, anonymized, aggregated, or int
 **Week 1 — Data Foundation**
 
 - [x] Create public portfolio repository skeleton
-- [ ] Complete PMI KICKOFF
+- [x] Complete PMI KICKOFF
 - [ ] Write PROTANNI business context & scope
 - [ ] Create KPI tree & metric framework
 - [ ] Create data dictionary & privacy rules
 - [ ] Ship Week 1 checkpoint
+
+---
+
+### Week 1 evidence
+
+- [PMI KICKOFF Project Charter](./01-business-context/project-charter.md)
+- [Credentials register](./credentials/README.md)
 
 ---
 
