@@ -60,7 +60,7 @@ Any operational data used here will be synthetic, anonymized, aggregated, or int
 - [x] Complete PMI KICKOFF
 - [x] Write PROTANNI business context & scope
 - [x] Create KPI tree & metric framework
-- [ ] Create data dictionary & privacy rules
+- [x] Create data dictionary & privacy rules
 - [ ] Ship Week 1 checkpoint
 
 ---
@@ -69,6 +69,7 @@ Any operational data used here will be synthetic, anonymized, aggregated, or int
 
 - [Business Context & Scope](./01-business-context/business-model.md)
 - [KPI Framework](./01-business-context/kpi-framework.md)
+- [Data Dictionary & Privacy Rules](./02-data/data-dictionary.md)
 - [PMI KICKOFF Project Charter](./01-business-context/project-charter.md)
 - [Credentials register](./credentials/README.md)
 
