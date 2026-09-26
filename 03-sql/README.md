@@ -100,4 +100,4 @@ The pack applies:
 - revenue and retention analysis;
 - business interpretation and decision framing.
 
-The next Phase 1 task is the **Phase 1 release**, which links the KPI Framework, Data Dictionary, Analytical Data Model, Synthetic Dataset, SQL Pack, and credentials from the repository homepage.
+This SQL pack is part of the completed **Phase 1 — Data Foundation v1.0** release. The next phase applies this foundation in Power BI, forecasting, and financial modeling.
