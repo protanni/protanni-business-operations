@@ -116,6 +116,7 @@ Key gaps identified for later resolution include acquisition attribution, normal
 - [Data Dictionary & Privacy Rules](./02-data/data-dictionary.md)
 - [Analytical Data Model](./02-data/data-model.md)
 - [Synthetic Analytical Dataset](./02-data/synthetic-dataset/README.md)
+- [SQL Business-Question Pack](./03-sql/README.md)
 - [PMI KICKOFF Project Charter](./01-business-context/project-charter.md)
 - [Credentials register](./credentials/README.md)
 
@@ -127,7 +128,7 @@ Key gaps identified for later resolution include acquisition attribution, normal
 2. [x] Complete Kaggle Advanced SQL.
 3. [x] Design the analytical data model.
 4. [x] Create the synthetic/anonymized portfolio dataset.
-5. [ ] Build the SQL business-question pack.
+5. [x] Build the SQL business-question pack.
 6. [ ] Publish the Phase 1 release.
 
 ---
