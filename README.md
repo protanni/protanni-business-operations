@@ -87,49 +87,57 @@ Operational data used in public artifacts will be synthetic, anonymized, aggrega
 
 ## Current Progress
 
-### Week 1 — Data Foundation — Complete
+### Phase 1 — Data Foundation — Complete
 
-- [x] Create public portfolio repository skeleton
-- [x] Complete PMI KICKOFF
-- [x] Write PROTANNI business context & scope
-- [x] Create KPI tree & metric framework
-- [x] Create data dictionary & privacy rules
-- [x] Ship Week 1 checkpoint
+**Release:** Data Foundation v1.0 — 26 Sep 2026
 
-### Week 1 Checkpoint — v0.1
+Phase 1 established the measurement and analytics foundation for PROTANNI before launch. The work connects business context, KPI definitions, source-system governance, analytical modeling, privacy-safe synthetic data, and tested SQL analysis into one reproducible operating layer.
 
-Week 1 established the Business Operations foundation for the case:
+#### Phase 1 outcomes
 
-- defined the current product/business context and initiative boundaries;
-- completed PMI KICKOFF Predictive and applied a real Project Charter;
-- defined the initial North Star and executive KPI operating framework;
-- mapped KPIs to the live Supabase schema without reading production user records;
-- documented privacy, synthetic-data, source-of-truth, and data-quality rules;
-- exposed real instrumentation gaps instead of inventing unavailable data.
+- defined the business context, initiative scope, stakeholders, constraints, and decision questions;
+- completed PMI KICKOFF Predictive and applied a Project Charter to the real sprint;
+- defined the initial North Star (**Weekly Core Value Users — WCVU**) and executive KPI tree;
+- mapped KPI definitions to the live Supabase schema using metadata only, without reading production user records;
+- documented source-of-truth, privacy, data-quality, refresh, and synthetic-data rules;
+- designed an analytical model supporting acquisition, activation, engagement, conversion, revenue, retention, market, and cohort analysis;
+- published a deterministic, fully synthetic dataset with source-compatible and clearly labelled modelled/future analytical sources;
+- completed Kaggle Intro to SQL and Advanced SQL;
+- built and validated a **30-question SQL Business-Question Pack** spanning funnel, activation, engagement, retention, cohorts, revenue, and market/channel analysis;
+- recorded current instrumentation gaps explicitly rather than inventing unavailable production data.
 
-Key gaps identified for later resolution include acquisition attribution, normalized product-event instrumentation, durable Today-path history, onboarding completion timestamps, AI interaction tracking, and a normalized monetary source for MRR/ARPU.
-
-### Week 1 Evidence
+#### Phase 1 evidence
 
 - [Business Context & Scope](./01-business-context/business-model.md)
+- [PMI KICKOFF Project Charter](./01-business-context/project-charter.md)
 - [KPI Framework](./01-business-context/kpi-framework.md)
 - [Data Dictionary & Privacy Rules](./02-data/data-dictionary.md)
 - [Analytical Data Model](./02-data/data-model.md)
 - [Synthetic Analytical Dataset](./02-data/synthetic-dataset/README.md)
 - [SQL Business-Question Pack](./03-sql/README.md)
-- [PMI KICKOFF Project Charter](./01-business-context/project-charter.md)
-- [Credentials register](./credentials/README.md)
+- [Credentials Register](./credentials/README.md)
 
-## Next
+#### Analytical validation
 
-**Week 2 — Data Foundation**
+All 30 SQL queries were executed successfully against the committed synthetic dataset in an isolated temporary validation schema. The temporary schema was removed after validation.
 
-1. [x] Complete Kaggle Intro to SQL.
-2. [x] Complete Kaggle Advanced SQL.
-3. [x] Design the analytical data model.
-4. [x] Create the synthetic/anonymized portfolio dataset.
-5. [x] Build the SQL business-question pack.
-6. [ ] Publish the Phase 1 release.
+Selected synthetic results are included only to demonstrate analytical reasoning and decision framing. They are **not actual PROTANNI performance, traction, revenue, retention, pricing, or forecasts**.
+
+Current production-data gaps that remain relevant for later implementation include acquisition attribution, normalized product-event instrumentation, durable Today-path history, onboarding completion timestamps, explicit market geography, AI interaction tracking, and a normalized monetary source for MRR/ARPU.
+
+### Next — Phase 2: BI & Modeling
+
+The next phase turns the Data Foundation into management decision support:
+
+1. PL-300 — Prepare data.
+2. PL-300 — Model data.
+3. Build Power BI performance-management dashboard v1.
+4. Document dashboard decisions and KPI logic.
+5. Build driver-based commercial forecast.
+6. Build the operating budget / financial model, including contractor and hiring scenarios.
+7. Write the executive business case and scenario memo.
+8. Publish the Phase 2 release.
+
 
 ---
 
